@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.month p{
+    color: #fff;
+    font-family: 'Nunito Sans';
+    padding: 0.5rem;
+    font-weight: normal;
+    text-align: center;
+    font-size: 0.8rem;
+}
+select{
+    outline: none;
+    transform: none;
+    background: red;
+    border: none;
+}
+.month{
+    width: 100%;
+    max-width: 100px;
+    background-color: red;
+    margin: 2rem;
+    padding: 0.5rem 1rem;
+}

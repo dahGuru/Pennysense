@@ -1,0 +1,52 @@
+.dashboardExpensePreview {
+  display: flex;
+  background: #28293d;
+  margin-top: 2rem;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #ddd;
+}
+.expensePreview {
+  background: #28293d;
+  height: 800px;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.expensePreview h2 {
+  background: #28293d;
+  margin-top: 3.5rem;
+  color: #eee;
+}
+.expensePreview p {
+    background: #28293d;
+  color: #eee;
+}
+.previewItem{
+    background: #28293d;
+    padding: 1rem 0;
+    margin-top: 1.4rem;
+}
+.previewItem .previewContent{
+    text-decoration: underline;
+    margin-bottom: 0.3rem;
+}
+.previewItem .previewSpan{
+    color: green;
+    font-weight: bold;
+    background: #28293d;
+}
+.expenseDetail{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.detailer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    gap: 2rem;
+    background: #28293d;
+}

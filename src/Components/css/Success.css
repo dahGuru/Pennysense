@@ -1,0 +1,23 @@
+.success-container{
+    display: flex;
+}
+.success-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1d1b28;
+    box-shadow: 3px 3px 10px 6px rgba(0, 0, 0, 0.1);
+    padding: 1rem 5rem;
+    max-width: 100%;
+    margin: 2rem;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.success-wrapper img{
+    width: 6%;
+    margin-right: 0.3rem;
+}
+.success-wrapper h2{
+    font-size: 0.7rem;
+    font-weight: normal;
+}

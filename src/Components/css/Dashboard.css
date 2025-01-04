@@ -1,0 +1,289 @@
+.dashboardContainer {
+  display: flex;
+  align-items: center;
+  font-family: "Jost", sans-serif;
+  padding: 2rem 4rem;
+  height: 100vh;
+  min-height: 100vh;
+}
+.dashboardWrapper {
+  width: 100%;
+  display: flex;
+  gap: 2rem;
+}
+
+/* Left Panel */
+.dashboardLeft {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  width: 50vw;
+}
+.dashboardHeader {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 3rem;
+}
+.dashboardLogoIcon {
+  width: 4%;
+}
+.dashboardLogoText {
+  margin-left: 0.5rem;
+  font-size: 1.2rem;
+}
+.accumulativeBox {
+  background: #246afd;
+  display: flex;
+  justify-content: space-around;
+  /* gap: 2rem; */
+  padding: 1.5rem 2rem;
+  max-width: 800px;
+  width: 50vw;
+  border-radius: 15px;
+  margin: 0;
+}
+
+.dashboardLeftContainer {
+  width: 50vw;
+}
+.dashboardLeftWrapper {
+  width: 50vw;
+}
+.accumulativeBox hr {
+  height: 70px;
+  margin: 1rem;
+}
+.accumulativeBox p {
+  padding: 1rem 0;
+  color: #eee;
+  font-weight: 500;
+  font-family: "Nunito Sans";
+}
+.accumulativeBox .accumulative-date {
+  font-weight: normal;
+  font-size: 0.7rem;
+}
+.accumulativeBox .accumulative-amount {
+  font-weight: bold;
+  font-size: 1.13rem;
+}
+.expenseBox {
+  display: flex;
+  gap: 10rem;
+  margin-top: 2rem;
+}
+.expenseBox .expenseCalendar {
+  display: flex;
+  flex-direction: row;
+}
+.addExpense {
+  display: flex;
+  align-items: center;
+  margin-left: 7rem;
+}
+.addExpense button {
+  background: #fff;
+  color: #246afd;
+  padding: 0.6rem 1.5rem;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.expenseIcon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: 0.7rem;
+  background: #246afd;
+  color: #fff;
+  padding: 3px;
+  font-size: 0.5rem;
+  border-radius: 100%;
+}
+.expenseHistory {
+  margin-top: 1.5rem;
+}
+.expenseHistory .expense-Text {
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.4rem;
+  font-family: "Nunito Sans";
+  margin-bottom: 1rem;
+}
+.expenseStatement {
+  overflow: auto;
+  height: 500px;
+  width: 50vw;
+  max-width: 800px;
+}
+
+::-webkit-scrollbar-track {
+  background: #38354d;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #28293d;
+}
+::-webkit-scrollbar {
+  background: #38354d;
+  width: 1.2rem;
+}
+
+/* Right Panel */
+.dashboardRight {
+  flex: 1;
+  padding: 1rem;
+  width: 50vw;
+}
+.dashboardFormContainer {
+  display: flex;
+  /* align-items: center; */
+  /* justify-content: center; */
+}
+.dashboardFormContainer form {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  margin: 3rem auto;
+  /* gap: 1rem; */
+  width: 100%;
+}
+
+.dashboardFormContainer input {
+  border: 1px solid #fff;
+  border-radius: 10px;
+  margin: 1rem auto;
+  padding: 1rem 1.5rem;
+  color: #fff;
+  width: 100%;
+}
+.dashboardFormContainer input::placeholder {
+  color: #bbb;
+}
+.ItemAndAmount {
+  display: flex;
+  gap: 2.5rem;
+}
+.date-spent-container {
+  position: relative;
+}
+.date-spent i {
+  font-size: 1.3rem;
+  position: absolute;
+  top: 50%;
+  left: 1.6rem;
+  transform: translateY(-50%);
+}
+.date-spent input {
+  padding-left: 3.6rem;
+}
+.expenseIcons {
+  background: none;
+  margin-right: 0.5rem;
+  font-size: 1.4rem;
+}
+.add {
+  margin: 1.1rem 0 1.2rem 0;
+  display: flex;
+  align-items: center;
+}
+.add button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  color: #fff;
+  font-size: 0.9rem;
+  cursor: pointer;
+  width: 100%;
+  padding: 0.8rem 0;
+  background: #28293d;
+  border: none;
+  border-radius: 7px;
+}
+.add button:hover {
+  background: #38354d;
+}
+textarea {
+  border: 1px solid #fff;
+  border-radius: 10px;
+  padding: 1rem 1.5rem;
+  color: #fff;
+  width: 100%;
+  max-width: 760px;
+  height: 250px;
+  max-height: 250px;
+}
+textarea::placeholder {
+  font-size: 1rem;
+  color: #bbb;
+}
+.expenseSubmitBtn {
+  display: flex;
+  justify-content: center;
+}
+.expense-btn {
+  background-color: #246afd;
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  padding: 0.9rem 3rem;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-top: 3rem;
+  display: flex;
+}
+li.dashboard-dropdown {
+  display: inline-block;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+li a,
+.dashboard-dropdown-btn {
+  display: inline-block;
+  color: #555;
+  font-size: 0.8rem;
+  font-weight: 100;
+  text-align: center;
+  padding: 12px 19px;
+  text-decoration: none;
+  border-radius: 10px;
+  border: none;
+}
+.dashboard-dropdown-content {
+  display: none;
+  position: absolute;
+  top: 5.4rem;
+  right: 2;
+  float: right;
+  z-index: 1;
+  width: 10rem;
+  background: #28293d;
+  border-radius: 10px;
+  border: none;
+}
+.dashboard-dropdown-content a:hover {
+  background-color: #38354d;
+  border: none;
+  border-radius: 0;
+}
+
+.dashboard-dropdown-content a {
+  color: #FFF;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  width: 100%;
+  background-color: #28293d; 
+}
+.dashboard-dropdown:hover .dashboard-dropdown-content {
+  display: block;
+}

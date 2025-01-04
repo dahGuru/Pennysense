@@ -1,0 +1,32 @@
+.expense-container{
+    display: flex;
+}
+.expense-wrapper{
+    display: flex;
+    gap: 12.5rem;
+    background: none;
+    box-shadow: 3px 3px 10px 6px rgba(0, 0, 0, 0.06);
+    padding: 1rem 1.5rem;
+    width: 50vw;
+    max-width: 750px;
+    background-color: #28293d;
+    margin: 0.2rem 0;
+    cursor: pointer;
+}
+.expense-wrapper:hover{
+    background-color: #38354d;
+}
+.expense-wrapper P{
+    font-family: 'Nunito Sans';
+    color: #ccc;
+    font-weight: normal;
+}
+.fa-chevron-right{
+    margin-left: 1rem;
+    background: none;
+}
+.expense-next{
+    background: none;   
+    /* display: flex; */
+    /* align-items: center; */
+}
